@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="JasonNotes.css">
+    <title>Jason's Notes</title>
+  </head>
+  <body>
+    <div class="header-background">
+    <h1>Jason's Notes</h1>
+    
+      <div class="header-image">
+      <img src="images/wetdog.jpg" alt="a photo of a wet dog">
+      </div>
+    </div>
+    <div class="units">
+      <h2>Unit 0</h2>
+      <div class="idea-name">
+        <h3>The Web</h3>
+        <div class="idea-concept">
+          -made up of HTML pages<br>
+          -invented in early 1990s
+        </div>
+      </div>
+      <div class="idea-name">
+        <h3>Some Key Terms</h3>
+        <div class="idea-concept">
+          <b>HTML</b> - hypertext markup language<br>
+          <b>URLs</b> - uniform resource locator<br>
+          <b>HTTP</b> - hypertext transfer protocol<br>
+          <b>Web Application</b> - any software that runs in the web browser
+        </div>
+      </div>
+      <div class="idea-name">
+        <h3>HTML Tags &amp; Elements</h3>
+        <div class="idea-concept">
+          <p>
+              The structure of an element looks like this:<br>
+              <br>
+              &lt;tag attr="value"&gt; contents &lt;/tag&gt;
+          </p>
+          <p>
+              <b>Anchor</b> tags are used to include links. They look and work like this:<br>
+              <br>
+              &lt;a&gt;<br>
+              &lt;a href="www.example.com"&gt;example&lt;/a&gt;
+          </p>  
+          <p>
+              <b>Images</b> can be displayed with the image tag. They are a <b>void tag</b> because they do not have closing tags. It's good to add an alt attribute to help if the image does not load and if people with impaired vision are visiting the site with a site reader. They look and work like this:<br>
+              <br>
+              &lt;img&gt;<br>
+              &lt;img src="url" alt="text"&gt;
+          </p>
+        </div>
+      </div>
+      <div class="idea-name">
+        <h3>Inline vs Block Elements</h3>
+        <div class="idea-concept">
+          <p>
+              HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+          </p>
+          <p>
+              Some examples of <b>inline</b> tags are: a, br, em, img, span
+          </p>
+          <p>
+              Some examples of <b>block</b> tags are: div, h1, p
+          </p>  
+        </div>
+      </div>
+      <div class="idea-name">
+        <h3>Structure of HTML Page</h3>
+        <div class="idea-concept">
+          <p>
+              The structure of an HTML page should look like:<br>
+              <br>
+              &lt;!DOCTYPE HTML&gt;<br>
+              &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;/body&gt;<br>
+              &lt;/html&gt;<br>
+          </p>
+          <p>
+              In addition to this structure, structured code refers to the layout of code. It refers to the DOM, or the branches of the HTML. 
+          </p>
+          <p>
+              Semantics within HTML is the practice of giving content on the page meaning and structure by using the proper element. Semantic code describes the value of content on a page, regardless of the style or appearance of that content.
+          </p>  
+        </div>
+      </div>
+       <div class="idea-name">
+        <h3>Stages of Learning</h3>
+        <div class="idea-concept">
+          <p>
+              There are four stages of learning and it takes years to get to fluency. The stages are:<br>
+              0 - Ignorance<br>
+              1 - Awareness<br>
+              2 - Ability<br>
+              3 - Fluency
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="units">
+      <h2>Unit 1</h2>
+      <div class="idea-name">
+        <h3>Some Key Terms and Ideas</h3>
+        <div class="idea-concept">
+          <p>
+              <b>HTML</b> - is used for structure<br>
+              <b>CSS</b> - or <em>cascading style sheets</em> is used for style<br>
+              <b>DOM</b> - or <em>document object model</em> refers to the HTML tree, which one can see in dev tools (such as Google's Developer Tools in Chrome)
+          </p>  
+          <p>
+              - Everything is a box. It's helpful to break down webpages into seperate boxes or divs to help visualize the code.
+          </p>
+          <p>
+              - <b>DIVs</b> need classes to help label them. This will help when adding CSS to certain divs or elements. 
+          </p>
+          <p>
+              <b>- Avoid repetition to make your life easier.</b> 
+          </p>
+          <p> 
+              - <b>DRY</b> = Don't Repeat Yourself. This is important and helpful for organization and readable code. By being organized and not repeating code it's easier to edit and figure out an issue with a project.
+              <br>
+              <br>
+              - Group reusable css properties together<br>
+              - Name these groups logically<br>
+              - Add your selectors to the various css groups
+          </p>  
+        </div>
+      </div>
+        <div class="idea-name">
+        <h3>Some CSS Things to Know</h3>
+        <div class="idea-concept">
+          <p>
+              - If you want to select a class you can use ."classname" in the CSS sheet. For IDs use #.
+          </p>  
+          <p>
+              <b>Margin</b> - outer layer<br>
+              <b>Border</b> - border inside margin but around padding<br>
+              <b>Padding</b> - gutter around content<br>
+              <b>Content</b> - very center
+          </p>
+          <p>
+              Since <b>DIVs</b> are block elements (as opposed to inline), by default they take up the entire width of a page.<br>
+              - Adding the rule <b>display: flex</b> to the appropriate CSS wil override this behavior and let DIVs apppear next to each other
+          </p>
+        </div>
+      </div>
+      <div class="idea-name">
+        <h3>box-sizing: border-box</h3>
+        <div class="idea-concept">
+          <p>
+              - Makes it so the element size include border and padding, size of the box will always stay the same when border and padding is tweaked. Kind of like holding SHIFT in PSD.<br>
+              - Because it's new you need to make sure browsers are compatible.<br>
+
+          </p>  
+          <p>
+              For graceful degradation one must account for all browsers:<br>
+              <br>
+              -webkit-box-sizing: border-box;<br>
+              -moz-box-sizing: border-box;<br>
+              -ms-box-sizing: border-box;<br>
+              box-sizing: border-box;
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
